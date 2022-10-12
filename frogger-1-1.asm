@@ -2,33 +2,7 @@
 # CSC258H5S Winter 2022 Assembly Final Project
 # University of Toronto, St. George
 #
-# Student: Aabid Anas, 1007187982
-#
-# Bitmap Display Configuration:
-# - Unit width in pixels: 8
-# - Unit height in pixels: 8
-# - Display width in pixels: 256
-# - Display height in pixels: 256
-# - Base Address for Display: 0x10008000 ($gp)
-#
-# Which milestone is reached in this submission?
-# (See the assignment handout for descriptions of the milestones)
-# - Milestone 5
-#
-# Which approved additional features have been implemented?
-# (See the assignment handout for the list of additional features)
-# 1. Display the number of lives remaining
-# 2. After final player death, display gameover/retry screen. Restart the game if the
-#    “retry” option is chosen.
-# 3. Make the frog point in the direction that it’s traveling.
-# 4. Add sound effects for movement, losing lives, collisions, and reaching the goal.
-# 5. Displaying a pause screen or image when the ‘p’ key is pressed, and returning to
-#    the game when ‘p’ is pressed again.
-# 6. Hard feature: Display the player’s score at the top of the screen.
-#
-# Any additional information that the TA needs to know:
-# - Collisions only work correctly for the bottom two cars
-#
+# Student: Aabid Anas
 #####################################################################
 .data
 displayAddress: .word 0x10008000
